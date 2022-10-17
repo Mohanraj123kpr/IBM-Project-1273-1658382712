@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title> Register </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">             
+    </head>
+    <body></br></br></br></br></br>
+        <div class = "login" style:align="center">
+          <div style:align="center" class="border">
+             <div style:align="center" class="header">
+                <h1 >Register</h1>
+             </div></br></br></br>
+            <h2>
+                <form action="{{ url_for('signin') }}" method="post" id="signin_form">
+                  <div class="msg">{{ msg }}</div>
+                    <input id="username" name="username" type="text" placeholder="Username" class="textbox" required/></br></br>
+                    <input id="email" name="email" type="text" placeholder="Email ID" class="textbox" required/></br></br>
+                    <input id="rollno" name="rollno" type="text" placeholder="Rollno" class="textbox"required/></br></br>
+                    <input id="password" name="password" type="password" placeholder="Password" class="textbox" required/></br></br>
+                    <input type="submit" class="btn" value="Sign Up"></br>
+                </form>
+            </h2>
+            <p class="bottom">Already have an account?  <a class="bottom" href="{{url_for('login')}}"> Sign In here</a></p>
+          </div>
+        </div>
+    </body>
+</html>
