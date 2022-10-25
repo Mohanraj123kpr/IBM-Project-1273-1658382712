@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,14 +30,12 @@
       }
     </script>
   </head>
-  <body>
+  <body >
     <div class="form-body">
       <div class="row">
         <div class="img-holder">
           <div class="bg"></div>
-          <div class="info-holder">
-            <img src="../static/images/graphic1.svg" alt="" />
-          </div>
+          
         </div>
         <div class="form-holder">
           <div class="form-content">
@@ -47,7 +45,12 @@
                 <strong>{{message}}</strong>
               </div>
               {% endfor %}
-              <div class="page-links">
+              <div style="border: 2px black solid;width: 400px;height: 300px;
+              padding-left: 100px;background-color: orange;padding-right: 100px;
+              padding-top: 50px; position: relative;
+              left: -300px;top: -100px; border-radius: 5%;">
+              
+                <div class="page-links" >
                 <a href="http://localhost:5000/login" class="active">Login</a
                 ><a href="http://localhost:5000/">Register</a>
               </div>
@@ -70,6 +73,7 @@
                   placeholder="Password"
                   required
                 />
+            
                 <div class="form-button">
                   <button
                     id="submit"
@@ -79,6 +83,7 @@
                   >
                     Login
                   </button>
+                </div>
                 </div>
               </form>
             </div>

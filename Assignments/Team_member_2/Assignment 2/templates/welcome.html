@@ -19,7 +19,7 @@
       }
       h1 {
         font-size: 50px;
-        color: #dc8100;
+        color: teal;
 
       }
       article {
@@ -35,6 +35,11 @@
         color: #333;
         text-decoration: none;
       }
+      #logoutbutton{
+        size: 100px;
+        background-color: gold;
+       
+      }
     </style>
     <script>
       function loadLoginPage() {
@@ -43,6 +48,8 @@
     </script>
   </head>
   <body>
+    <img src="../static/images/welcome.jfif" alt=""
+    style="width: 200px; height: 200px;top: -200;">
     <article>
       <h1>Welcome, {{session.username}}!</h1>
 

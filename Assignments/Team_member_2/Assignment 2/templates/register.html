@@ -23,16 +23,21 @@
       <div class="row">
         <div class="img-holder">
           <div class="bg"></div>
-          <div class="info-holder">
-            <img src="../static/images/graphic1.svg" alt="" />
-          </div>
+          <!-- <div class="info-holder">
+            <img src="../static/images/img3.jfif" alt=""  />
+          </div> -->
         </div>
         <div class="form-holder">
           <div class="form-content">
             <div class="form-items">
+              <div style="border: 2px black solid;width: 400px;height: 400px;
+              padding-left: 100px;background-color: orange;padding-right: 100px;
+              padding-top: 50px; position: relative;
+              left: -300px;top: -100px; border-radius: 5%;">
               <div class="page-links">
                 <a href="http://localhost:5000/login">Login</a
-                ><a href="http://localhost:5000/" class="active">Register</a>
+                >
+                <a href="http://localhost:5000/" class="active">Register</a>
               </div>
               {% for message in get_flashed_messages() %}
               <div class="message-flash">
@@ -81,6 +86,7 @@
                   >
                     Register
                   </button>
+                </div>
                 </div>
               </form>
             </div>

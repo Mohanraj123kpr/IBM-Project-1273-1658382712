@@ -14,8 +14,8 @@
 /* -----------------------------------
     1 - General Styles
 ------------------------------------*/
-body {
-    background-color: #fff;
+body{
+    font-weight: 100;
 }
 
 .form-body {
@@ -34,9 +34,9 @@ body {
     width: 100px;
 }
 
-.website-logo .logo {
+/* .website-logo .logo {
     background-image: url("../images/logo-dark.svg");
-}
+} */
 
 .website-logo .logo img {
     width: 100px;
