@@ -1,0 +1,112 @@
+
+.header{
+    padding: 3px 100px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    font-size:x-large;
+}
+
+.border{
+    padding: 80px 80px;
+    width: 390px;
+    border-radius:10cm;
+    height: 550px;
+    border: 1px solid #0e1214;
+    border-radius: 30px;
+    background-color: #fafafa;
+    margin: 30px auto;
+}
+.login_border{
+  padding: 80px 80px;
+  width: 390px;
+  border-radius:10cm;
+  height: 550px;
+  border: 1px solid #fbfbfc;
+  border-radius: 30px;
+  background-color: #faf8f8;
+  margin: 30px auto;
+}
+p {
+  position: relative;
+}
+body{
+  background-color: #9f9da7;
+  padding: 20px 0 0 0;
+}
+.btn {
+    padding: 10px 40px;
+    background-color: #3ca9e2;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 16.4em;
+    font-size: large;
+    
+}
+.login_btn {
+  padding: 10px 100px;
+  margin: 0px 55px;
+  position: relative;
+  background-color: #3ca9e2;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 21.4em;
+  
+}
+.word{
+  margin: 30px auto;;
+}
+
+.textbox{
+    padding: 10px 40px;
+    vertical-align: middle;
+    text-color: #8a8b8e;
+    border-radius: 10px; 
+   
+}
+.login_textbox{
+    margin: -10px 50px;
+    padding: 15px 55px;
+    vertical-align: middle;
+    text-color: #8a8b8e;
+    border-radius: 10px;
+}
+    
+::placeholder {
+    color: #8a8b8e;
+    opacity: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.word{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.bottom{
+    text-align: center; 
+    color: #8a8b8e;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: "Open Sans", sans-serif;
+}
+.textbox{
+ 
+  text-align: center;
+  font-size: medium;
+}
+.login{
+  width: 25%;
+  margin: 30px auto
+}
+#signin_form{
+  padding: 0 60px;
+}
+
+#submit{
+  padding: 0 60px;
+}
