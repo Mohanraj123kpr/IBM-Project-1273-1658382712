@@ -40,7 +40,7 @@
                 <a href="http://localhost:5000/" class="active">Register</a>
               </div>
               {% for message in get_flashed_messages() %}
-              <div class="message-flash">
+              <div class="message-flash" style="position:fixed; left: 50%; top: -50;transform: translate(-50%, 0);">
                 <strong>{{message}}</strong>
               </div>
               {% endfor %}
