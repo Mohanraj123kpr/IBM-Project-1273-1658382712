@@ -2,6 +2,7 @@
 - Project  Name : Plasma Donor Apllication
 - Category: Cloud App Development
 - Batch : B1-1M3E
+- ![blood-bank-1913470-1623618](https://user-images.githubusercontent.com/104247633/198055880-12c95600-ee6a-4c75-bc95-c6b26324a3a6.png) Plasma Donor Application
 # 💻 Skills Required:
 IBM Cloud, HTML, Javascript, IBM Cloud Object Storage, Python-Flask, Kubernetes, Docker, IBM DB2, IBM Container Registry
 
