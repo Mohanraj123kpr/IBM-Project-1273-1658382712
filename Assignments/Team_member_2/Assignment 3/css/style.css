@@ -1,0 +1,25 @@
+body{
+    background-color:#ec42f5;
+}
+.gallery{
+    display: flex;
+    padding: 80px;
+    gap: 25px;
+    /* border:2px solid black; */
+    height: auto;
+
+background: rgb(170, 138, 172);
+
+border: 10px groove rgb(77, 0, 80);
+
+color: rgb(77, 0, 80);
+}
+img:hover{
+    height:320px ;
+    width: 320px;
+}
+h1{
+    font-family: serif;
+    text-align: center;
+}
+
