@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Assistent</title>
+</head>
+<body>
+    <h1>Home page</h1>
+    <p style="color: blue;">IBM watson Assistent for Booking appointment to the Hospital</p>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "3eb9d95e-65d4-46af-a5b4-297f81a5fd30", // The ID of this integration.
+          region: "jp-tok", // The region your integration is hosted in.
+          serviceInstanceID: "a6043b30-2602-436c-9b40-0c2eef860f5b", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</body>
+</html>
