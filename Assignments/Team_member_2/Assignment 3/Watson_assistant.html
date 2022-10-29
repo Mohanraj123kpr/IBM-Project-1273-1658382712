@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ChatBot</title>
+    </head>
+    <body style="background-color: teal;">
+            <h1 style="text-align:center">Appoinment Scheduling ChatBot</h1>
+        <script>
+            window.watsonAssistantChatOptions = {
+              integrationID: "8bc0f883-9eed-4476-ad32-23f3833b3fcf", // The ID of this integration.
+              region: "jp-tok", // The region your integration is hosted in.
+              serviceInstanceID: "ce541c63-f54e-40a6-b4fe-bbbe91e5fda8", // The ID of your service instance.
+              onLoad: function(instance) { instance.render(); }
+            };
+            setTimeout(function(){
+              const t=document.createElement('script');
+              t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+              document.head.appendChild(t);
+            });
+          </script>
+    </body>
+</html>
